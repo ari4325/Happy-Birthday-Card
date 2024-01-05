@@ -244,7 +244,7 @@
 
 .hallway {
   background-image: radial-gradient(transparent, #000),
-    url(../resources/img/Hallway.svg);
+    url(../resources/img/dbpc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,10 +253,18 @@
 }
 
 .empty-room,
+.content {
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.65)),
+    url(../resources/img/park_street.jpg);
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .giftroom,
 .content {
   background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.65)),
-    url(../resources/img/bedroom.svg);
+    url(../resources/img/shalbs_bg.jpg);
   background-position: 70%;
   background-repeat: no-repeat;
   background-size: cover;
